@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("plante.jpg");
+    background-size: cover;
+}
+
+.titre-gras {
+    color: #243c02;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.login h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.login form {
+    font-size: 20px;
+    color: #000000;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form .form-group a {
+    font-size: 15px;
+    color: #000000;
+}
+
+.login form input[type="submit"] {
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.btn-success {
+    background-color: #243c02;
+    border-color: #243c02;
+}
+
+.btn-success:hover {
+    background-color: #243c02;
+    border-color: #243c02;
+}
